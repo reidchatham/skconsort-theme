@@ -91,7 +91,7 @@ $author = absint($prefer_theme_options['prefer-show-hide-author']);
                     'after' => '</div>',
                 ));
                 ?>
-                <!-- read more -->
+                <!-- read more --
                 <?php if (!empty($read_more) && $show_content_from == 'excerpt'): ?>
                     <a class="more-link" href="<?php the_permalink(); ?>"><?php echo esc_html($read_more); ?> <i
                                 class="fa fa-long-arrow-right"></i>
