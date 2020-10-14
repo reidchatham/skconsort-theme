@@ -16,7 +16,7 @@ $slide_id = absint($prefer_theme_options['prefer-select-category']);
             'arrows'            => false,
         );
       $args = array(
-			'posts_per_page' => 3,
+			'posts_per_page' => 6,
 			'paged' => 1,
 			'cat' => $slide_id,
 			'post_type' => 'post'
@@ -32,7 +32,7 @@ $slide_id = absint($prefer_theme_options['prefer-select-category']);
         ?>
 				<div class="slider-items slider-height">
           <div class="slide-wrap">
-              <div class="entry-meta">
+              <!-- <div class="entry-meta">
                 <ul>
                   <li>
                       <?php
@@ -44,17 +44,17 @@ $slide_id = absint($prefer_theme_options['prefer-select-category']);
                   </li>
                   <li><?php prefer_posted_on(); ?></li>
                 </ul>
-              </div>
+              </div> -->
               <!-- <div class="img-cover" style="background-image: url(<?php //echo esc_url($image_url[0]);?>)">
               </div> -->
               <?php the_post_thumbnail('full'); ?>
             	<div class="caption">
-                    <div class="inner-wrapper">
+                    <!-- <div class="inner-wrapper">
               		    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                       <div class="btn-wrapper">
                         <a class="more-btn" href="<?php the_permalink(); ?>"><?php _e('Continue Reading', 'prefer'); ?></a>
-                      </div>
-                  </div>
+                      </div> 
+                  </div> -->
             	</div>
           </div>
         </div>

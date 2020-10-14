@@ -24,7 +24,7 @@ $social_share = absint($prefer_theme_options['prefer-single-social-share']);
                 the_title('<h2 class="post-title entry-title"><a href="' . esc_url(get_permalink()) . '" rel="bookmark">', '</a></h2>');
                 ?>
             <?php endif; ?>
-            <div class="post-date">
+           <!-- <div class="post-date">
                 <?php
                 if ('post' === get_post_type()) :
                     ?>
@@ -35,7 +35,7 @@ $social_share = absint($prefer_theme_options['prefer-single-social-share']);
                         ?>
                     </div><!-- .entry-meta -->
                 <?php endif; ?>
-            </div>
+            </div> -->
 
             <div class="content post-excerpt entry-content clearfix">
                 <?php
