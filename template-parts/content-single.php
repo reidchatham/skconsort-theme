@@ -33,7 +33,7 @@ $social_share = absint($prefer_theme_options['prefer-single-social-share']);
                         prefer_posted_on();
                         prefer_posted_by();
                         ?>
-                    </div><!-- .entry-meta -->
+                    </div><!-- .entry-meta --!>
                 <?php endif; ?>
             </div> -->
 
