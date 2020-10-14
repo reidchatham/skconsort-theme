@@ -14,9 +14,9 @@ $social_share = absint($prefer_theme_options['prefer-single-social-share']);
             <?php prefer_post_thumbnail(); ?>
         </div>
         <div class="post-content">
-            <div class="post-cats">
+            <!-- <div class="post-cats">
                 <?php prefer_entry_meta(); ?>
-            </div>
+            </div> -->
             <?php
             if (is_singular()) :
                 the_title('<h1 class="post-title entry-title">', '</h1>');
