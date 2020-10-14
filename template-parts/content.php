@@ -75,7 +75,7 @@ $author = absint($prefer_theme_options['prefer-show-hide-author']);
                     </div>
                 <?php endif; ?>
             </div>
-            <div class="post-excerpt entry-content">
+            <!-- <div class="post-excerpt entry-content">
                 <?php
                 if (is_singular()) {
                     the_content();
@@ -97,7 +97,7 @@ $author = absint($prefer_theme_options['prefer-show-hide-author']);
                                 class="fa fa-long-arrow-right"></i>
                     </a>
                 <?php endif; ?>
-            </div>
+            </div> -->
             
         </div>
     </div>
