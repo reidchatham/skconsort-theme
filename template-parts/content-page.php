@@ -19,7 +19,10 @@ $image_option = absint($prefer_theme_options['prefer-single-page-featured-image'
             ?>
         </div>
         <div class="post-content">
-            <?php the_title('<h1 class="post-title entry-title">', '</h1>'); ?>
+        		<?php if (!is_front_page()) {
+        			the_title('<h1 class="post-title entry-title">', '</h1>');
+		    	} ?>
+        
             <div class="post-excerpt entry-content">
                 <?php
                 
