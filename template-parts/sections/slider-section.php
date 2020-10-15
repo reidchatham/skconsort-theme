@@ -16,7 +16,7 @@ $slide_id = absint($prefer_theme_options['prefer-select-category']);
             'arrows'            => false,
         );
       $args = array(
-			'posts_per_page' => 6,
+			'posts_per_page' => 8,
 			'paged' => 1,
 			'cat' => $slide_id,
 			'post_type' => 'post'
