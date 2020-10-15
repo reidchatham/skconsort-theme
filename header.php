@@ -43,7 +43,7 @@ if ( function_exists( 'wp_body_open' ) ) {
     do_action( 'prefer_action_header' );
     ?>
 
-	 <?php if ($enable_slider == 1 && (is_home() || is_front_page())) { ?>
+	 <?php if ($enable_slider == 1 && (is_front_page())) { ?>
         <section class="slider-wrapper">
             <?php
             /*
